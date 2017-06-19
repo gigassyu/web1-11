@@ -5,11 +5,11 @@ var answer = parseInt(window.prompt('数あてゲーム。0～2の数字を入�
 var message;
 if(answer === number) {
   message ='あたり';
-}eise if (answer < number){
+}else if (answer < number){
   message = 'ざんねんもっとおおきいです';
-}eise if (number < answer){
+}else if (number < answer){
   message = 'ざんねんもっとちいさいです';
-}eise{
+}else{
   message = '0～3の数字を入力してください';
 }
 
